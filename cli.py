@@ -123,3 +123,4 @@ def main():
 if __name__ == "__main__":
     main()# Patient CRUD operations
 # Doctor management functionality
+# Appointment scheduling
