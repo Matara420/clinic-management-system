@@ -121,4 +121,4 @@ def main():
         else: click.secho("Invalid choice", fg='red')
 
 if __name__ == "__main__":
-    main()
+    main()# Patient CRUD operations
