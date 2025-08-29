@@ -108,7 +108,7 @@ def appointment_management():
         db.close()
 
 def main():
-    click.secho("Welcome to Clinic Management System!", fg='cyan', bold=True)
+    click.secho("Welcome to my Clinic Management System!", fg='cyan', bold=True)
     while True:
         choice = print_menu("Main Menu", 
             ["Patient Management", "Doctor Management", "Appointment Management", "Exit"])
@@ -116,12 +116,9 @@ def main():
         elif choice == "2": doctor_management()
         elif choice == "3": appointment_management()
         elif choice == "4": 
-            click.secho("Goodbye!", fg='magenta')
+            click.secho("Chao!", fg='magenta')
             break
         else: click.secho("Invalid choice", fg='red')
 
 if __name__ == "__main__":
-    main()# Patient CRUD operations
-# Doctor management functionality
-# Appointment scheduling
-# Error handling
+    main()
