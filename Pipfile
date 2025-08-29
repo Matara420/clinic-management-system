@@ -13,3 +13,4 @@ alembic = "*"
 
 [requires]
 python_version = "3.12"
+click = "*"
